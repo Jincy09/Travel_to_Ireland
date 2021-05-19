@@ -33,6 +33,7 @@ nav{
 nav .logo{
     width: 15%;
     text-align: center;
+    color: #fff;
 }
 
 nav .menu{
@@ -130,4 +131,38 @@ section .btnone{
      70%{content:"Limerick"}
      80%{content:"Sligo"}
      100%{content:"Kerry"}
+}
+
+/*----------Footer---------*/
+
+.social-networks,footer{
+    background:rgb(185, 185, 9);
+    padding: 10px;
+    text-align: center;
+}
+
+.social-networks,footer,a{
+    color: black;
+
+}
+
+
+.social-networks li{
+    display: inline;
+}
+
+span:hover{
+    color: #fff;
+}
+.footer a:hover{
+    color: black;
+}
+
+.col-lg-4{
+    font-family: 'Gabriela', sans-serif;
+    font-size: 16px; 
+}
+.social-networks{
+    font-size: 12px;
+    word-spacing: 50px;
 }
