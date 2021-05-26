@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Gabriela', sans-serif;
+}
+
+/*----------images---------*/
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* --------------- Navbar --------------- */
+
+nav{
+    width: 100%;
+    height: 80px;
+    background: skyblue;
+
+}
+label.logo{
+    color: black;
+    font-size: 30px;
+    line-height: 70px;
+    padding: 0 50px;
+    font-weight: bold;
+    float: left;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background: white;
+    transition: .5s;
+}
+
+@media only screen and(max-width: 674px){
+    label.logo{
+        font-size: 20px;
+        padding-left: 50px;
+        margin: 0;
+        padding: 0;
+    }
+    nav ul li a{
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+        
+    }}
+
+   .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+
+  /*----------Footer---------*/
+
+.social-networks,footer{
+    background:rgb(185, 185, 9);
+    padding: 10px;
+    text-align: center;
+}
+
+.social-networks,footer,a{
+    color: black;
+
+}
+
+
+.social-networks li{
+    display: inline;
+}
+
+span:hover{
+    color: #fff;
+}
+.footer a:hover{
+    color: black;
+}
+
+.col-lg-4{
+    font-family: 'Gabriela', sans-serif;
+    font-size: 16px; 
+}
+.social-networks{
+    font-size: 12px;
+    word-spacing: 50px;
+}
+
+    
+/*----------media queries---------*/
+@media (max-width: 350px){
+
+        label.logo{
+            font-size:inherit;
+            margin:0;
+            padding:0;
+            float:left
+        }
+        nav ul li a{
+            font-size:12px;
+            margin:0;
+            padding:0;
+        }
+        .column {
+    flex: 100%;
+    max-width: 100%;
+  }}
