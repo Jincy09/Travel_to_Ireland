@@ -12,7 +12,7 @@
 header{
     width: 100%;
     height: 100vh;
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/222.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../images/222.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     }
@@ -56,35 +56,60 @@ a.active,a:hover{
     transition: .5s;
 }
 /*----------Body---------*/
-
-.contact-section{
-    background: no-repeat center;
-    background-size: cover;
-    padding: 10px 0;
-}
-.contact-section h1{
-    text-align: center;
-    color:#ddd
-}
-.border{
-    width: 100px;
-    height: 0px;
-    margin: 4px;
-}
 .contact-form{
+    width: 85%;
     max-width: 600px;
-    margin: auto;
-    padding: 0 10px;
-    overflow: hidden;
-
-}
-.contact-form-text{
-    display: block;
-    width: 40%;
+    background: rgb(35, 83, 105);
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 40px;
     box-sizing: border-box;
-    margin: 16px 0;
-    padding: 20px 30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
 }
+
+.contact-form h1{
+    margin-top: 10px;
+    font-weight: 200;
+}
+.txtb{
+    border-radius: 1px solid #fff;
+    margin: 8px 0;
+    padding: 12px 18;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.textb label{
+    display: block;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.textb input,.textb textarea{
+    width: 100%;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+.btn{
+    display: inline-block;
+    background: rgb(209, 209, 85);
+    padding: 14px 0;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+}
+
 /*----------Footer---------*/
 
 .social-networks,footer{
