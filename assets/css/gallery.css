@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
-*,
-*::after,
-*::before {
+
+:root{--radius:5px;}
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
@@ -11,21 +11,9 @@
 }
 
 /*----------images---------*/
-.gallery{
-    border: 1px solid #ccc;
-}
-.gallery img{
-    width: 100%;
-    height: auto;
-}
-.des{
-    padding: 15px;
-    text-align: center;
-}
-.responsive{
-    padding: 0 6px;
-    float: left;
-    width: 25%;
+div.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 /* --------------- Navbar --------------- */
 
