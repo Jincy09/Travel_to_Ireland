@@ -12,13 +12,17 @@ The Milestone 1 project assignment is to build a static front-end website using 
 . Build a website for a gym  
 . Build a personal portfolio site ( potentially for yourself) 
    
-I have decided to create a website for a fictional tour company here in Ireland.  However, while the tour company is fictional the places featured are real and this was an idea that I had brought forward in September 2019 to the Celbridge Tourism and Heritage Forum, of which I'm a voluntary member. Over the last 5 years this voluntary community group has sought funding to produce [Celbridge Tourism and Heritage Strategy (2016-2020)](http://www.kildarelcdc.ie/wp-content/uploads/2012/07/Celbridge-Gateway-to-Irelands-AE-Tourism-Heritage-Strategy-May-2016.pdf), [Celbridge Heritage Trail Audio Guide](http://www.abartaheritage.ie/product/celbridge-heritage-trail-audio-guide/) and [The Discover Celbridge website](http://www.discovercelbridge.com/). While the group have not met since the end of 2019 and our activities have been suspended due to the Covid-19 Pandemic and the devastating effects it continues to have across the globe; it is hoped that we will be able to resume our work on future projects in late 2021 or early 2022.  
+I have decided to create a website for a fictional tour here in Ireland.  
+However, while the tour is fictional the places featured are real and
+this was an idea that I had brought forward for the promotion of tourism in Ireland. 
+While the Covid-19 Pandemic has devastated people across the globe; it is hoped that
+we will be able to travel all around the world. Meanwhile, I have created this website
+to give little idea about the places, so that ones everything comes to normal an option 
+for travel would be this country.  
   
-The idea for this tour came from the fact that the town of Celbridge, in Co. Kildare, has many historic and cultural sites that would appeal to the domestic and international tourism market, but also the realisation that our offering isn't yet developed enough to be able to  market Celbridge as a stand-alone tourist destination.  Therefore, my idea was to identify other community groups in neighbouring counties who are also working to promote their local area and to collaborate to create a ready-made tour itinerary featuring each of our localities and to then pitch it at a number of local tour companies for one of them to take on and operate.  The idea is not for any of the community groups or the individuals involved with them to directly benefit from this project. Rather the objective is for our wider communities to benefit from the impact that increased tourism will lead to i.e. the creation of local employment opportunities as well as increased private and public sector investment into improved facilities in these localities.  
+For the purpose of my Milestone 1 project we're going to see attractive places, music ,culture and tour.
   
-For the purpose of my Milestone 1 project we're going to assume that the final tour itinerary has been agreed and that the fictional family run tour operator, Irish Spirit Tours, has undertaken to incorporate this itinerary into their business as a means of expanding their current product offering.  
-  
-On that basis I have used the five planes of UX methodology to identify the user needs, the features required, the most logical way to structure the information and the functionality required in order to produce a wireframe that will form the blueprint for this Milestone project.
+On that basis I have used the five planes of UX methodology to identify the user needs, the features required, the most logical way to structure the information and the functionality required for this Milestone project.
   
 ---    
       
@@ -31,13 +35,12 @@ On that basis I have used the five planes of UX methodology to identify the user
     + [User Stories:](#user-stories-)
       - [First Time Visitor Goals](#first-time-visitor-goals)
       - [Returning & Frequent Visitor Goals](#returning-visitor-goals)
-    + [User personas](#user-personas)
-    + [The Business Scenario](#the-business-scenario)
 - [Scope](#scope)
   * [Functional Specification](#functional-specification)
     + [Current feature requirements:](#current-feature-requirements-)
     + [Future feature requirements:](#future-feature-requirements-)
     + [Content Requirements:](#content-requirements-)
+    + [Features:](#features-)
 - [Structure](#structure)
   * [Information Design  (IA)](#information-design---ia-)
   * [5. wireframes](#5-wireframes)
@@ -97,31 +100,194 @@ The user is looking to explore different places,culture,cuisines when they come 
 
 ### Current feature requirements:     
 * A responsive website that will  adapt for mobile, tablet and laptop devices
-* A navigation bar that will be fixed to the top of the screen so that it is always visible, even as the user scrolls down the page.  
-* A unique hero image for each page that will visually communicate the content contained within the page.
-* A Home page that will focus the users attention to either the tour itinerary or the options to customise & extend the tour.
-* A testimonial section on the Home page to build user trust in the quality of the tour and the tour operator.
-* A page that will clearly display the full tour itinerary, tour inclusions and the base starting price based on two people sharing.
-* A page that will allow the user to extend their trip either pre or post tour and present a list of Add-On's that will allow the user to customise their tour.
-* A gallery page to visually re-enforce the quality of the tour.
-* A Contact Us page that will contain a multi-functional form to enable the user to make an enquiry, request a quote or make a booking.
-* A Get a Quote button on the right of the navbar that will link to the multi-functional form on the Contact Us page.  
-  
+* A navigation bar that will be fixed to the top of the screen for the easy visibility.  
+* A unique home page that will visually communicate the content contained within the page.
+* A page that will clearly display the full tour itinerary.
+* A page that will allow the user to extend their wish to explore Ireland.
+* A gallery page to visually attract people with full explanation, so that they wont have any doubt in their mind
+* A Contact Us page that will contain a  form to enable the user to submit their views about Ireland.
+* A about page which gives the description of page and of Ireland
 ### Future feature requirements:    
 * The addition of an interactive map on the Itinerary page.
-* The addition of a language selection option so that users can access the site in their own language.  
+* The addition of a 3D video for better visualisation.  
   
 ### Content Requirements:    
-* An overview of the company and the main product i.e. the tour.  
-* A text area with link to entice the user to explore the full tour itinerary.  
-* A text area with link to entice the user to explore the full list of options available to customise the tour.  
-* A testimonial section to help build trust with the user.
-* A subscription form so that we can stay in contact with the user and work on building their trust until they are ready to book the tour.
-* The full tour itinerary
+* The overview of different places, culture and the routine followed in Ireland.  
+* A tag with link to entice the user to explore the whole Ireland in nutshell.  
+* A tag with link to entice the user to explore the full list of image gallery to visually enjoy the quality of different places with explanation.  
+* A contact form so that we can stay in contact with the user and work on building their trust until they know about Ireland.
+* Social media links to help and explain about Ireland, to stay connected with the users with different views and explaination .   
 * The tour inclusions
-* The full list of optional pre & post tour add-on's.  
-* An image gallery to visually re-enforce the quality and value of the tour.
-* A multi-functional contact form that can handle enquiries, quotes & bookings.
-* Social media links to help re-enforce the brand, to stay connected with the user and for users to use as a promotion tool on our behalf.  
-
  [Back to Content](#content)  
+
+### Features:
+* All the four pages consists of  navigation menu bar on top where you can click to go to any of the four pages 
+  wherever you are on the current page. The four pages also consist of the same footer with four social
+  links taking them to a new tab with the relevant social media for more details.
+* I chose a stylish font called 'Gabriela' for attractive fonts which is eye catching fonts for the users.
+* The font colours displayed mainly are white, skyblue, silver and black for homepage,
+gallery  background colours for nav in navy blue: rgb(5, 37, 78);, button colours in white and yellow and social links for all pages 
+ in yellow: rgb(185, 185, 9) to link the travel to Ireland website.
+
+## [home.html](https://github.com/Jincy09/Travel_to_Ireland/blob/main/index.html)
+* This page has a background  image of a beautiful place helping the user to enjoy the natural, inspiring the user to add Ireland to their bucketlist to travel. The name of the website ‘Travel to Ireland’ is displayed, and has given a brief description in the ‘About Us’ section.
+* This page has a gallery, about us page, learn more and a contact page.
+* The home page also has a beautiful styling which shows diferent places in one go. 
+* the page at the bottom is a neat row of social links consisting of Facebook, Instagram, Youtube and google.
+
+## [gallery.html](https://github.com/Jincy09/Travel_to_Ireland/tree/main/gallery)
+
+* This page has different images of different places, activities, music, culture and food.
+* This page shows the image in beautiful card format which makes the users easy to get to know about the places.
+* This page is also has an easy navigation to different pages.
+* This page also has a logo Mo Éire(which means my Ireland) which is the heart of this page.
+
+## [learnmore.html](https://github.com/Jincy09/Travel_to_Ireland/blob/main/learnmore.html)
+
+* This page has a beautiful video background of Cliff Of Moher which gives the users to enjoy the serinity of the cliff from aerial view.
+* Thsi page gives a brief description of Ireland, about the population, geagraphical location and residents.
+* This page leads to the gallery which describes in details. 
+
+## [contact.html](https://github.com/Jincy09/Travel_to_Ireland/blob/main/contact.html)
+* This is is a simple page with hero image of a landscape with the same heading and to keep the style consistent.
+* In this page, it has form which includes name, number and email address.
+
+## [about.html](https://github.com/Jincy09/Travel_to_Ireland/blob/main/about.html)
+* This page gives the brief description about the purpose of creating this page with a beautiful background to make it more attractive.
+
+# wireframes
+
+# Technologies Used  
+
+## Languages Used
+
+-  [HTML5](https://en.wikipedia.org/wiki/HTML5)
+
+-  [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+  
+### Frameworks, Libraries & Programs Used
+
+* [__Bootstrap 4.1.3__](https://getbootstrap.com/docs/4.1/getting-started/introduction/) Bootstrap Grid was used for responsiveness as well as features such as Collapse, Carousel & Forms..
+* [__Balsamiq__](https://balsamiq.com) Balsamiq was used to create wireframes during the design process.
+* [__Google Fonts__](https://fonts.google.com) used for project fonts.
+* [__Gitpod__](https://gitpod.io) Gitpod was the IDE used to create the site and for version control.
+* [__Github__](https://github.com/) GitHub is used to store the projects code after being pushed from Gitpod.
+* [__Fontawesome__](https://fontawesome.com) Font Awesome was used for the Icons throughout the site.
+* Google DevTools used for debugging and testing.
+* [__W3Scool__](https://www.w3schools.com/) used as a general source of information.
+* [__Unsplash__](https://unsplash.com/) used to download images for the website.
+* [__W3C Markup Validator__](https://validator.w3.org/) Used to test HTML code validation.
+* [__W3C CSS Validatior - Jigsaw__](https://jigsaw.w3.org/css-validator/) Used to test CSS code validation.
+* [__Mobile-Friendly Test__](https://search.google.com/test/mobile-friendly?id=ZteYI-6sVDRnrLMf_Chjmw) used to check if code is Mobile Friendly.
+* [__Am I Responsive__](http://ami.responsivedesign.is/) used to create Mock-up images to represent the site's responsiveness.
+  
+[Back to Content](#content)  
+
+--- 
+
+
+# Deployment
+
+## GitHub Pages
+
+This project was deployed to GitHub Pages following these steps:
+
+1. Login to GitHub  
+2. Locate the following GitHub Repository name in the Search Bar: Jincy09/Travel_to_Ireland  [See Visual Aid](https://github.com/Jincy09/Travel_to_Ireland/blob/main/README.md)  
+3. Click into the repository to view more details
+4. Click on Settings, located on the menu tab just below the repository name  [See Visual Aid](https://github.com/Jincy09/Travel_to_Ireland) 
+5. Scroll down to the GitHub Pages section
+6. Under Source, select Master in the dropdown menu  [See Visual Aid](https://github.com/Jincy09/Travel_to_Ireland/settings)  
+7. Select /(root) in the tab that is next to Branch selector  [See Visual Aid](https://github.com/Jincy09/Travel_to_Ireland/settings/pages)    
+8. Click Save and page will automatically refresh
+9. Scroll back down again to the GitHub Pages section
+10. You will now see a link to the deployed website  [See Visual Aid](https://github.com/Jincy09/Travel_to_Ireland/settings/pages)  
+11. To view the deployed website [click here!](https://jincy09.github.io/Travel_to_Ireland/)  
+
+## Forking the GitHub Repository
+
+By forking the GitHub Repository you make a copy of the original repository on your own GitHub account to view and/or make changes without affecting the original repository by following these simple steps:
+
+1. Log in to GitHub and locate the [ Jincy09/Travel_to_Ireland Repository](https://github.com/Jincy09/Travel_to_Ireland)
+2. Near the top of the Repository, on the right-hand side of the screen, locate the "Fork" button.
+3. Click this button and you should now have a copy of the original repository in your GitHub account.
+  
+## Making a Local Clone
+
+1. Log in to GitHub and locate the [ Jincy09/Travel_to_Ireland Repository](https://github.com/Jincy09/Travel_to_Ireland)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+```
+$ git clone https://github.com/Jincy09/Travel_to_Ireland
+```
+7. Press Enter. Your local clone will be created.
+```
+$ git clone https://github.com/Jincy09/Travel_to_Ireland
+> Cloning into `CI-Clone`...
+```  
+  [Back to Content](#content)  
+
+  ---
+
+# Credits
+  
+## Media   
+  
+Images used on index.html:  
+-  [Hero Image for index.html](https://brontebabeblog.files.wordpress.com/2019/08/pexels-photo-1650906.jpeg?w=1024&h=363&crop=1)  Taken from pixel.com
+
+   
+     
+Images used on Gallery:    
+-  [Areal view of powerscourt](https://www.shutterstock.com/image-photo/st-stephens-green-park-dublin-view-1393102976E) Taken from shutterstock   
+-  [Autumn Dublin](https://www.instagram.com/lovindublin/) Taken from Instagram-lovin dublin 
+-  [Bray](https://www.theirishroadtrip.com/bray-to-greystones-cliff-walk/) Taken from Irish road trip.  
+-  [Ha penny bridge](https://www.reddit.com/r/ireland/comments/abxmsm/hapenny_bridge/)  Taken from Redit.com  
+- 
+     
+Images used on about.html:  
+
+
+  
+Additional Images used in gallery.html:  
+-  [Boann Pot Stills](https://boanndistillery.ie/pursuit-pot-still/)  Taken from Official Website  
+-  [walking-food-tour](https://unsplash.com/photos/jtLECCiz1e4) Taken from unsplash   
+-  [ardgillian](https://avea.ie/ardgillan-castle-ltd/) Taken from Ardgillan Castle Ltd      
+-  [wine-food](https://unsplash.com/photos/ZrhtQyGFG6s)  Taken from UnSplash  
+-  [group-dinner](https://unsplash.com/photos/QlnUpMED6Qs)  Taken from UnSplash
+-  [tacos](https://unsplash.com/photos/R7FA5a7Itnw)  Taken from UnSplash
+-  [temple-bar](https://unsplash.com/photos/0kcJVLG1VSo)  Taken from UnSplash
+
+  
+Image used on contact.html:  
+-  [contact](https://unsplash.com/photos/PSie8BkuB0w)  Taken from UnSplash  
+
+
+## Research for choice of Colour palette:      
+-  [Adobe](https://color.adobe.com/create/color-wheel)  
+-  [Canva](https://www.canva.com/colors/color-wheel/)  
+-  [Oberlo](https://ie.oberlo.com/blog/color-combinations-cheat-sheet)    
+
+    
+## Websites from which I took inspiration when planning my project:  
+-  [Irish Spirit Tours](https://stephenj2020.github.io/CI-MS1-IrishSpiritTours/index.html)  
+-  [Avalanche Cafe](https://dori78.github.io/AvaLanche/)    
+-  [Ireland](https://www.ireland.com/en-gb/)  
+-  [South Coast SUP](https://timmorrisdev.github.io/south-coast-sup/index.html)   
+  
+[Back to Content](#content)  
+
+---  
+   
+# Acknowledgements     
+
+I would like to thank the following people for their support and guidance during this project:    
+- My Mentor  Precious Ijege.    
+- The Code Institute Slack Community.  
+- My husband Mithun for all his valuable feedback on my project and believing in me.  
+
+[Back to Content](#content)   
