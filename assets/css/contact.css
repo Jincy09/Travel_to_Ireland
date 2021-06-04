@@ -52,7 +52,7 @@ nav ul li a{
     text-transform: uppercase;
 }
 a.active,a:hover{
-    background: skyblue;
+    color: skyblue;
     transition: .5s;
 }
 /*----------Body---------*/
