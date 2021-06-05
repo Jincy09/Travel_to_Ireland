@@ -1,11 +1,19 @@
-# Development Notes:  
   
-**Some of the challenges I faced during the Development process and how I addressed them:**  
-
+# Bugs and Issues
+### Throughout the project I expereinced the following issues, which I fixed mainly by researching the web. The main sources of information I used are from W3School, CSS-tricks, Developer.Mozilla.
 - One of the main issue I faced is to fix the nav bar. The responsiveness of the navbar was not at all good.
-- The next thing I faced was overriding background images, I solved that by giving appropriat height and width to the image.
+- The next thing I faced was overriding background images, I solved that by giving appropriate height and width to the image.
 - I initially added src folder for all the html file, but while deploying background images were not reflecting. My mentor helped me to solve the problem by deleting the src folder.
--  For the Gallery I wanted the a hover the information for respective images but I wasn't sure how to achieve this, then I solved this issue by watching a [youtube video](https://www.youtube.com/watch?v=8b2mTq0Xrtw&t=147s)
+- For the Gallery I wanted the a hover the information for respective images but I wasn't sure how to achieve this, then I solved this issue by watching a [youtube video](https://www.youtube.com/watch?v=8b2mTq0Xrtw&t=147s)
+- In my GitHub Desktop, I was not able to open the programme. Whenever I tried to push in github it showed error. After the investigation, I moved the index.html file which was in assets.
+- I faced a lot of difficulty in making the gallery responsive even after applying media query for devices of max-width: 576px and 768px,it was not reflecting. Finally I solved the issue by deleting the media queries one by one and redoing it again.
+- The browser was uneven taking up all the spaces,after inspecting, I sorted it out by giving  "0" margin and padding  in the CSS files.
+- Background video was not moving as expected, solved this issue by putting muted loop autoplay in the video link.
+- when I first used the [Am I responsive](http://ami.responsivedesign.is/)site my mobile homepage was not responsive,fixed the issue by adding media query of 320px.
+# Testing
+### [HTML validation](https://validator.w3.org/)
+### [CSS validation](https://jigsaw.w3.org/css-validator/)
+### **Manual testing** - in my opinion manually testing a site on different devices gives the best overview and points out any issues with design and responsiveness. I had to fix a few things that were not showing on Google Dev Tool, but I found out about them when I was inspecting the site manually. The devices that the project was tested on are:
 
 
 ### User Stories :  

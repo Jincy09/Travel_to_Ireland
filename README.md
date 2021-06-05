@@ -32,8 +32,7 @@ for travel would be this country.
       - [Returning & Frequent Visitor Goals](#returning-visitor-goals)
 - [Scope](#scope)
   * [Functional Specification](#functional-specification)
-    + [Current feature requirements:](#current-feature-requirements-)
-    + [Future feature requirements:](#future-feature-requirements-)
+    + [Current requirements:](#current-feature-requirements-)
     + [Content Requirements:](#content-requirements-)
 - [Features:](#features-)
     + [Home.html](index.html)
@@ -158,12 +157,20 @@ gallery  background colours for nav in navy blue: rgb(5, 37, 78);, button colour
 ## [about.html](https://github.com/Jincy09/Travel_to_Ireland/blob/main/about.html)
 * This page gives the brief description about the purpose of creating this page with a beautiful background to make it more attractive.
 
+# TESTING  
+
+The entire testing process, issues and bugs found during development, solutions are [here]().
+
+- Bugs and Issues
+- Validatiors
+- User stories
+
 # Structure :
 
 # wireframes :
 
 I used [Balsamiq](https://balsamiq.com/) to create
-[wireframes]() in desktop, tablet and phone view.
+[wireframes](https://github.com/Jincy09/Travel_to_Ireland/tree/main/wireframes) in desktop, tablet and phone view.
 
 
 # Technologies Used  
@@ -189,7 +196,6 @@ I used [Balsamiq](https://balsamiq.com/) to create
 * [__Unsplash__](https://unsplash.com/) used to download images for the website.
 * [__W3C Markup Validator__](https://validator.w3.org/) Used to test HTML code validation.
 * [__W3C CSS Validatior - Jigsaw__](https://jigsaw.w3.org/css-validator/) Used to test CSS code validation.
-* [__Mobile-Friendly Test__](https://search.google.com/test/mobile-friendly?id=ZteYI-6sVDRnrLMf_Chjmw) used to check if code is Mobile Friendly.
 * [__Am I Responsive__](http://ami.responsivedesign.is/) used to create Mock-up images to represent the site's responsiveness.
   
 [Back to Content](#content)  
