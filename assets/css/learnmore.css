@@ -19,7 +19,7 @@ nav{
     background: rgb(8, 8, 70);
 
 }
-label.logo{
+div.logo{
     color: #fff;
     font-size: 20px;
     line-height: 70px;
@@ -188,7 +188,7 @@ span:hover{
 }
 
 @media (max-width: 1039px){
-    label.logo{
+    div.logo{
         font-size: 15px;
         padding-left: 50px;
         padding:0px;
@@ -211,7 +211,7 @@ span:hover{
 
         
 @media(max-width: 768px){
-     label.logo{
+    div.logo{
             font-size:23px;
             margin:0;
             padding: 5px;
@@ -239,7 +239,7 @@ span:hover{
 
 @media(max-width: 360px){
 
-        label.logo{
+       div.logo{
             font-size:10px;
             margin:0;
             padding: 5px;

@@ -18,7 +18,7 @@ nav{
     background: rgb(5, 37, 78);
 
 }
-label.logo{
+div.logo{
     color: #fff;
     font-size: 30px;
     line-height: 70px;
@@ -80,7 +80,7 @@ a.active,a:hover{
     width: 260px;
     height: 260px;
     top: -60px;
-    left: 20px;
+    left: 5px;
     z-index: 1;
     box-shadow: 0 5px 20 rgb(0,0,0,0.2);
 }
@@ -117,16 +117,16 @@ a.active,a:hover{
 
 
 /*----------Media Queries---------*/
-@media (max-width: 1039px){
-    label.logo{
-        font-size: 15px;
+@media (max-width: 1024px){
+   div.logo{
+        font-size: 30px;
         padding-left: 50px;
         padding:0px;
         margin:10px;
 
     }
     nav ul li a{
-        font-size: 20px;
+        font-size: 25px;
         margin:5px;}
     section h1{
         font-size:30px;
@@ -134,24 +134,149 @@ a.active,a:hover{
         width:100%;
         float:left;}
 
+    .container{
+    position: relative;
+    width:100%;
+    margin: 10px;
+    float:right;} 
     
+    .container .card{
+    position: relative;
+    height:400px;
+    width:100%;
+    margin:30px,10px;
+    padding:10px,5px;
+    flex-direction: column;
+    box-shadow: 0 5px 202px rgb(0,0,0,0.5);
+    transition: 0.3s ease-in-out;
+     
+}
+    .container.card:hover{
+     height: 400px;
+}
+
+.container.card.imgBx{
+    z-index: 1;
+    box-shadow: 0 5px 20 rgb(0,0,0,0.2);
+    padding:10px;
+    margin:5px;
    
+}
+
+.container .card .content{
+    position: relative;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+
+
+}
+
+.container .card:hover .content{
+    visibility: visible;
+    opacity: 1;
+    margin-top: 2px;
+    transition-delay: 0.1s;
+}
+
+.container .card .imgBx img{
+    max-width: 100%;
+    border-radius: 5px;
+
+}
+.container p{
+    font-size: 15px;
+}
+.container h2{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+}
+
 @media(max-width: 768px){
-     label.logo{
+    div.logo{
             font-size:25px;
             margin:0;
             padding: 6px;
         }
-        nav ul li a{
+    nav ul li a{
             font-size:20px;
             margin:0;
             padding:0;
         }
+    .container{
+           position: relative;
+           width:95%;
+           padding: 10px;
+           margin: 5px;
+           float:right;}
+    .container.card:hover{
+     height: 400px;
+}
 
-}    
+.container.card.imgBx{
+    z-index: 1;
+    box-shadow: 0 5px 20 rgb(0,0,0,0.2);
+    padding:10px;
+    margin:5px;
+   
+}
+.container .card .content{
+    position: relative;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+
+
+}
+
+.container .card:hover .content{
+    visibility: visible;
+    opacity: 1;
+    margin-top: 2px;
+    transition-delay: 0.1s;
+}
+
+.container .card .imgBx img{
+    max-width: 90%;
+    border-radius: 5px;
+
+}
+.container p{
+    font-size: 15px;
+}
+.container h2{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+
+.social-networks li{
+    display: inline;
+    padding:15px;}
+   
 
 
 
+.container.card{
+    position: relative;
+    max-width: 400px;
+    height: 00px;
+    background: rgba(0,0,0,0.1);
+    margin:30px,10px;
+    padding:10px,5px;
+    flex-direction: column;
+    box-shadow: 0 5px 202px rgb(0,0,0,0.5);
+    transition: 0.3s ease-in-out;
+     
+}
+   
+}
 @media(max-width: 360px){
 
         label.logo{
@@ -165,24 +290,7 @@ a.active,a:hover{
             padding:px;
             display:contents; }
 
-
-
-        
-        }
-      .container{
-    position: relative;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 10px,5px;
-    margin: 90px;
-   
-
-}
-
-.container .card{
+.container.card{
     position: relative;
     max-width: 300px;
     height: 100px;
@@ -204,7 +312,7 @@ a.active,a:hover{
     width: 260px;
     height: 260px;
     top: -60px;
-    left: 20px;
+    left: 2px;
     z-index: 1;
     box-shadow: 0 5px 20 rgb(0,0,0,0.2);
 }
@@ -224,13 +332,13 @@ a.active,a:hover{
 .container .card:hover .content{
     visibility: visible;
     opacity: 1;
-    margin-top: -5px;
+    margin-top: 0;
     transition-delay: 0.1s;
 }
 
 .container .card .imgBx img{
     max-width: 100%;
-    border-radius: 4px;
+    border-radius: 10px;
 
 }
 .container p{
@@ -244,6 +352,6 @@ a.active,a:hover{
 
     .social-networks li{
     display: inline;
-    padding:15px;
-
-}       }
+    padding:15px;}
+    }
+   

@@ -27,7 +27,7 @@ nav{
     background: rgba(0,0,0,0.2);
 
 }
-label.logo{
+div.logo{
     color: #fff;
     font-size: 20px;
     line-height: 70px;
@@ -55,10 +55,7 @@ a.active,a:hover{
     color: skyblue;
     transition: .5s;
 }
-/*nav.menu:hover{
-    background: deepskyblue;
-    color: black;
-}*/
+
 /* --------------- Body --------------- */
 
 main{
@@ -186,7 +183,7 @@ span:hover{
     display: none;
 }
 @media (max-width: 1039px){
-    label.logo{
+    div.logo{
         font-size: 15px;
         padding-left: 50px;
         padding:0px;
@@ -206,7 +203,7 @@ span:hover{
         }
 
 @media(max-width: 760px){
-     label.logo{
+     div.logo{
             font-size:15px;
             margin:0;
             padding: 5px;
@@ -226,9 +223,9 @@ span:hover{
 
 
 
-@media(max-width: 320px){
+@media(max-width: 360px){
 
-        label.logo{
+        div.logo{
             font-size:8px;
             margin:0;
             padding: 5px;

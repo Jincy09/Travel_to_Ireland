@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us Section</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/about.css">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/learnmore.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -12,38 +12,43 @@
 <body>
     <header>
         <nav>
-           
-            <label class="logo">
-                <h1 class="animate__animated animate__pulse animate__infinite	infinite">Mo Éire</h1>
-            </label>
-            <ul class="main-nav">
+            <input type="checkbox"  id="check">
+            <label for="check" class="checkbtn"><i class="fa fa-bars" aria-hidden="true"></i></label>
+            <div class="logo">
+                <div class="animate__animated animate__pulse animate__infinite	infinite">Mo Éire</div>
+            </div>
+           <div>
+            <ul class="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-            </ul>    
+            </ul>  
+            </div>  
         </nav>
    
     <body>
-        <div class="section">
-            <div class="container">
-                <div class="content-section">
-                    <h1>About Us</h1>
-                </div>
-                <div class="content">
-                    <h3 class="text">
-                        In Ireland we love to celebrate  different places, explore every nook and corner.
-                        Unfornately, due to COVID-19, many among us are not able to enjoy the beauty of it.
-                        Everyone's health and safety is the most important thing right now but discovering new places will never be stopped.
-                       Check out our listings below or try some of our virtual experiences and see the country like never before!
-                        In this website we want to welcome you to different places,
-                        to provide tour guide for free of cost and a feeling of actually being there. We are pleased to welcome to these places. 
-                        Feel free and Enjoy Everyday!!
-                    </h3>
-                </div>
+        <section class="showcase">
+            <header>
+                <h2 class="logos">Ireland</h2>
+                <div class="toggle"></div>
+            </header>
+            <video src="video/poster.mp4" muted loop autoplay></video>
+            <div class="overlay"></div>
+            <div class="text">
+                <p>Ireland is a beautiful green country located in northwest Europe. 
+                    It is an island that is separated from Great Britain by the Irish Sea. 
+                    The island is considered the 20th largest island in the world, and encompasses 84,421 kilometers squared of land. 
+                    It is home to 6.4 million people, and the capital city of Dublin has a population of 1.273 million people. 
+                    The island has a hilly geography with numerous plains and rivers cutting through the land. 
+                    Its currency is the Euro. The country’s official language is both English and Irish. 
+                    Most people speak a dialect of English, however many families who have lived in Ireland for generations understand and speak Irish. 
+                    Ireland does not have an official religion, but the primary religion that is followed in the country is Christianity. 
+                    Its flag is a horizontal flag with green, white, and orange vertical stripes.</p>
+                    <a href="gallery.html">Explore</a>
             </div>
-        </div>
-    </body>
+        </section>
+    </body>       
     </header>
     
      <footer>

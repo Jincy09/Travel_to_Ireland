@@ -4,15 +4,10 @@
    
 ---   
   
-# Project Description   
+# Project Description
 **Code Institute: User-Centric Front-End Development**  
   
-The Milestone 1 project assignment is to build a static front-end website using the technologies that we have learned so far on the Code Institute course. I have the option to choose from one of the following three scenarios or to come up with my own idea:  
-. Build a website for a band (real or fictional)  
-. Build a website for a gym  
-. Build a personal portfolio site ( potentially for yourself) 
-   
-I have decided to create a website for a fictional tour here in Ireland.  
+* I have decided to create a website for a fictional tour here in Ireland.  
 However, while the tour is fictional the places featured are real and
 this was an idea that I had brought forward for the promotion of tourism in Ireland. 
 While the Covid-19 Pandemic has devastated people across the globe; it is hoped that
@@ -20,9 +15,9 @@ we will be able to travel all around the world. Meanwhile, I have created this w
 to give little idea about the places, so that ones everything comes to normal an option 
 for travel would be this country.  
   
-For the purpose of my Milestone 1 project we're going to see attractive places, music ,culture and tour.
+* For the purpose of my Milestone 1 project we're going to see attractive places, music ,culture and tour.
   
-On that basis I have used the five planes of UX methodology to identify the user needs, the features required, the most logical way to structure the information and the functionality required for this Milestone project.
+* On that basis I have used the five planes of UX methodology to identify the user needs, the features required, the most logical way to structure the information and the functionality required for this Milestone project.
   
 ---    
       
@@ -40,7 +35,11 @@ On that basis I have used the five planes of UX methodology to identify the user
     + [Current feature requirements:](#current-feature-requirements-)
     + [Future feature requirements:](#future-feature-requirements-)
     + [Content Requirements:](#content-requirements-)
-    + [Features:](#features-)
+- [Features:](#features-)
+    + [Home.html](index.html)
+    + [Gallery.html](gallery.html)
+    + [Contact.html](contact.html)
+    + [About.html](about.html)
 - [Structure](#structure)
   * [Information Design  (IA)](#information-design---ia-)
   * [5. wireframes](#5-wireframes)
@@ -60,18 +59,21 @@ On that basis I have used the five planes of UX methodology to identify the user
 - [Acknowledgements](#acknowledgements)
 
 
-### User Stories:  
+### User Stories :  
     
 The user is looking to explore different places,culture,cuisines when they come to Ireland. They want to sit back and enjoy the mesmerising beauty which Ireland gives.  They are interested in seeing some of the history of Ireland's Ancient  but they enjoy sampling quality local food.  
 
 * First Time Visitors Goals
+
        1. As a First Time Visitor, I want to easily see the details of the tour.
        2. As a First Time Visitor, I want to be able to navigate the site easily with the minimum number of clicks to get to the desired information.
        3. As a First Time Visitor, I want to easily see the options available to customise the tour.
        4. As a First Time Visitor, I want to interact with people around the world about the beautiful places in Ireland. So that we can connect with different people from different cultures
        5. As a First Time Visitor, I want to give amazing stories of different places just at your finger tips. So that even during COVID19, it will be easy for people around the world to explore beautiful places when sitting at home.
        6. As a First Time Visitor, I want to be able to go through the site and to give a clear idea about the page.
+
 * Returning Visitor Goals
+
        1. As a Returning Visitor, I want to update the pictures regularly. So that the viewers can enjoy and update their knowledge about different Jaw-dropping natural landscapes, regal castles, Irish locals, lively cities, rich heritage, delicious food.
        2. As a Returning Visitor, I want to welcome people around the world to visit and enjoy the benefits of Ireland.
        3. As a Returning Visitors, I want to be able to solve the queries of the visitors through email, so that I will be able to give a clear idea about the places.
@@ -79,6 +81,8 @@ The user is looking to explore different places,culture,cuisines when they come 
        5. As a Returning Visitor, I want to preserve the information, so that ones the viwers come back the relevant information is safe.
 
 * Issues For Users To Overcome
+
+
        1. To provide adequate information about the different places showcased.
        2. To provide tour guide for free of cost and a feeling of actually being there.
        3. To structre the designs in a way so that it would be easy to navigate for viewers.
@@ -86,6 +90,8 @@ The user is looking to explore different places,culture,cuisines when they come 
        
      
 * Future Ideas
+
+
        1. Implement video experience for the viewers, to give a 3D effect on view.
        2. Initiate a blog/RSS for the viewers, to keep them up-to-date.
 
@@ -93,11 +99,11 @@ The user is looking to explore different places,culture,cuisines when they come 
 
 ---  
 
-# Scope   
+# Scope :  
 
-## Functional Specification   
+## Functional Specification  
 
-### Current feature requirements:     
+### Current requirements:     
 * A responsive website that will  adapt for mobile, tablet and laptop devices
 * A navigation bar that will be fixed to the top of the screen for the easy visibility.  
 * A unique home page that will visually communicate the content contained within the page.
@@ -106,9 +112,7 @@ The user is looking to explore different places,culture,cuisines when they come 
 * A gallery page to visually attract people with full explanation, so that they wont have any doubt in their mind
 * A Contact Us page that will contain a  form to enable the user to submit their views about Ireland.
 * A about page which gives the description of page and of Ireland
-### Future feature requirements:    
-* The addition of an interactive map on the Itinerary page.
-* The addition of a 3D video for better visualisation.  
+
   
 ### Content Requirements:    
 * The overview of different places, culture and the routine followed in Ireland.  
@@ -119,7 +123,7 @@ The user is looking to explore different places,culture,cuisines when they come 
 * The tour inclusions
  [Back to Content](#content)  
 
-### Features:
+# Features:
 * All the four pages consists of  navigation menu bar on top where you can click to go to any of the four pages 
   wherever you are on the current page. The four pages also consist of the same footer with four social
   links taking them to a new tab with the relevant social media for more details.
@@ -144,7 +148,7 @@ gallery  background colours for nav in navy blue: rgb(5, 37, 78);, button colour
 ## [learnmore.html](https://github.com/Jincy09/Travel_to_Ireland/blob/main/learnmore.html)
 
 * This page has a beautiful video background of Cliff Of Moher which gives the users to enjoy the serinity of the cliff from aerial view.
-* Thsi page gives a brief description of Ireland, about the population, geagraphical location and residents.
+* This page gives a brief description of Ireland, about the population, geagraphical location and residents.
 * This page leads to the gallery which describes in details. 
 
 ## [contact.html](https://github.com/Jincy09/Travel_to_Ireland/blob/main/contact.html)
@@ -154,7 +158,13 @@ gallery  background colours for nav in navy blue: rgb(5, 37, 78);, button colour
 ## [about.html](https://github.com/Jincy09/Travel_to_Ireland/blob/main/about.html)
 * This page gives the brief description about the purpose of creating this page with a beautiful background to make it more attractive.
 
-# wireframes
+# Structure :
+
+# wireframes :
+
+I used [Balsamiq](https://balsamiq.com/) to create
+[wireframes]() in desktop, tablet and phone view.
+
 
 # Technologies Used  
 
@@ -164,7 +174,8 @@ gallery  background colours for nav in navy blue: rgb(5, 37, 78);, button colour
 
 -  [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-  
+
+
 ### Frameworks, Libraries & Programs Used
 
 * [__Bootstrap 4.1.3__](https://getbootstrap.com/docs/4.1/getting-started/introduction/) Bootstrap Grid was used for responsiveness as well as features such as Collapse, Carousel & Forms..
@@ -241,36 +252,46 @@ Images used on index.html:
 
    
      
-Images used on Gallery:    
--  [Areal view of powerscourt](https://www.shutterstock.com/image-photo/st-stephens-green-park-dublin-view-1393102976E) Taken from shutterstock   
+Images used in Gallery:    
+-  [Areal view of powerscourt](https://www.instagram.com/p/CNfCZ4pIauN/) Taken from Instagram   
 -  [Autumn Dublin](https://www.instagram.com/lovindublin/) Taken from Instagram-lovin dublin 
 -  [Bray](https://www.theirishroadtrip.com/bray-to-greystones-cliff-walk/) Taken from Irish road trip.  
 -  [Ha penny bridge](https://www.reddit.com/r/ireland/comments/abxmsm/hapenny_bridge/)  Taken from Redit.com  
-- 
-     
-Images used on about.html:  
+-  [Dublin street Music](https://pxhere.com/en/photo/101282?hcb=1) take from pixhere.com
+-  [Annes lane](https://www.alamy.com/stock-photo-dublinireland-03192018-umbrellas-on-annes-lane-dublin-ireland-close-177623492.html) Taken from alamy
+-  [Donegal](https://fitfunadventures.com/exploring-the-mountains-cliffs-and-beaches-of-south-west-donegal/) Taken from Fitfun adventures
+-  [Kerry](https://www.reddit.com/r/ireland/comments/8thayr/ive_never_seen_carantouhill_pictured_so_well/) Taken from Redit
+-  [Dublin Bus](https://unsplash.com/photos/qwFqw0EVyuM) Taken fron unsplash
+-  [Irish doors](https://www.alamy.com/two-vintage-georgian-doors-in-yellow-and-blue-in-dublin-image335638663.html) Taken from alamy
+-  [Galway homes](https://unsplash.com/photos/UR-9hOEW-Ww) Taken from unsplash
+-  [Artists in Ireland](https://www.instagram.com/p/CNxla7wqbmE/) Taken from Instagram
+-  [Lighthouse in Ireland](https://www.instagram.com/p/CLw9cF9qmiH/) Taken from Instagram
+-  [Winters in Ireland](https://www.instagram.com/p/CLEO91-qKHz/) Taken from Instagram
+-  [Puffins in Ireland](https://unsplash.com/photos/4AmyOdXZAQc) Taken from unsplash
+-  [Streets of Ireland](https://unsplash.com/photos/POQHijPTjIA) Taken from unsplash
+-  [Bakery in Ireland](https://unsplash.com/photos/HOf7YHJCMTM) Taken from unsplash
+-  [Irish Cuisines](https://unsplash.com/photos/14HKCEgadoU) Taken from unsplash
+-  [People In Ireland](https://unsplash.com/photos/QV5OUQEgXXw) Taken from unsplash
+-  [Luas](https://unsplash.com/photos/NBsJsj8JFpM) Taken from unsplash
+-  [Gardens in Ireland](https://www.pinterest.ie/pin/690458186601069555/) Taken from pinterest
+-  [Shopping centres in Ireland](https://www.alamy.com/clock-st-stephens-green-shopping-centre-dublin-ireland-image7274575.html) Taken from alamy
+-  [Dublin city](https://www.facebook.com/LovinDublin/photos/a.137889432904502/2500219036671518/?type=3&hc_ref=ARQP43zcSVn7MxYYZLl3c_bvtFYWhXn91jhRMvqcNL2YbJDyJumR2RdZNR-3WUY53ps) Taken from facebook
+-  [Spring in Ireland](https://www.shutterstock.com/search/herbert+park) Taken from shutterstock
+-  [Dockland](https://unsplash.com/photos/topW4GzqygI) Taken from unsplash
 
 
-  
-Additional Images used in gallery.html:  
--  [Boann Pot Stills](https://boanndistillery.ie/pursuit-pot-still/)  Taken from Official Website  
--  [walking-food-tour](https://unsplash.com/photos/jtLECCiz1e4) Taken from unsplash   
--  [ardgillian](https://avea.ie/ardgillan-castle-ltd/) Taken from Ardgillan Castle Ltd      
--  [wine-food](https://unsplash.com/photos/ZrhtQyGFG6s)  Taken from UnSplash  
--  [group-dinner](https://unsplash.com/photos/QlnUpMED6Qs)  Taken from UnSplash
--  [tacos](https://unsplash.com/photos/R7FA5a7Itnw)  Taken from UnSplash
--  [temple-bar](https://unsplash.com/photos/0kcJVLG1VSo)  Taken from UnSplash
+Images used in About.html:
 
-  
+-  [Background video](https://www.youtube.com/watch?v=aw467fHB_ko&t=52s) Taken from Youtube
+
+
 Image used on contact.html:  
--  [contact](https://unsplash.com/photos/PSie8BkuB0w)  Taken from UnSplash  
+-  [contact](https://shoptr.shopsadgr.com/category?name=manzaral%C4%B1%20duvar%20tablolar%C4%B1)  Taken from boxinghq
+  
 
 
 ## Research for choice of Colour palette:      
 -  [Adobe](https://color.adobe.com/create/color-wheel)  
--  [Canva](https://www.canva.com/colors/color-wheel/)  
--  [Oberlo](https://ie.oberlo.com/blog/color-combinations-cheat-sheet)    
-
     
 ## Websites from which I took inspiration when planning my project:  
 -  [Irish Spirit Tours](https://stephenj2020.github.io/CI-MS1-IrishSpiritTours/index.html)  
@@ -290,3 +311,9 @@ I would like to thank the following people for their support and guidance during
 - My husband Mithun for all his valuable feedback on my project and believing in me.  
 
 [Back to Content](#content)   
+
+
+
+
+
+
