@@ -29,7 +29,9 @@ to traveling Ireland would not be avoided.
   * [Strategy](#strategy)
     + [User Stories:](#user-stories-)
       - [First Time Visitor Goals](#first-time-visitor-goals)
-      - [Returning & Frequent Visitor Goals](#returning-visitor-goals)
+      - [Returning Visitor goals](#returning-visitor-goals)
+      - [Issues For Users To Overcome](#issues-for-users-to-overcome)
+      - [Future Ideas](future-ideas)
 - [Scope](#scope)
   * [Functional Specification](#functional-specification)
     + [Current requirements:](#current-feature-requirements-)
@@ -53,7 +55,6 @@ to traveling Ireland would not be avoided.
   * [Making a Local Clone](#making-a-local-clone)
 - [Credits](#credits)
   * [Media](#media)
-  * [Research for choice of Colour palette:](#research-for-choice-of-colour-palette-)
   * [Websites from which I took inspiration when planning my project:](#tourism-websites-from-which-i-took-inspiration-when-planning-my-project-)
 - [Acknowledgements](#acknowledgements)
 
@@ -154,21 +155,23 @@ gallery  background colours for nav in navy blue: rgb(5, 37, 78);, button colour
 * This page leads to the gallery which describes in details. 
 
 
-# TESTING  
-
-The entire testing process, issues and bugs found during development, solutions are [here](https://github.com/Jincy09/Travel_to_Ireland/blob/main/TESTING.md).
-
-- Bugs and Issues
-- Validatiors
-- User stories
-
 # Structure :
 
-# wireframes :
+## wireframes :
 
 I used [Balsamiq](https://balsamiq.com/) to create
 [wireframes](https://github.com/Jincy09/Travel_to_Ireland/tree/main/wireframes) in desktop, tablet and phone view.
-
+ 
+## Visual Designs :
+- For my color palette, I have used [Adobe](https://color.adobe.com/create/color-wheel) 
+- Most of the colours which is used are:
+    * White
+    * Skyblue 
+    * Blue - rgb(13, 68, 90)
+    * black
+    * Sandybrown
+    * Yellow -rgb(209, 209, 85)
+       
 
 # Technologies Used  
 
@@ -199,6 +202,13 @@ I used [Balsamiq](https://balsamiq.com/) to create
 
 --- 
 
+# TESTING  
+
+The entire testing process, issues and bugs found during development, solutions are [here](https://github.com/Jincy09/Travel_to_Ireland/blob/main/TESTING.md).
+
+- Bugs and Issues
+- Validatiors
+- User stories
 
 # Deployment
 
@@ -295,9 +305,7 @@ Image used on contact.html:
 
 --- 
 
-## Research for choice of Colour palette:      
--  [Adobe](https://color.adobe.com/create/color-wheel)  
-    
+
 ## Websites from which I took inspiration when planning my project:  
 -  [Irish Spirit Tours](https://stephenj2020.github.io/CI-MS1-IrishSpiritTours/index.html)  
 -  [Avalanche Cafe](https://dori78.github.io/AvaLanche/)    
@@ -308,7 +316,7 @@ Image used on contact.html:
 
 ---  
    
-# Acknowledgements     
+# Acknowledgement     
 
 I would like to thank the following people for their support and guidance during this project:    
 - My Mentor  Precious Ijege.    
