@@ -144,18 +144,15 @@ gallery  background colours for nav in navy blue: rgb(5, 37, 78);, button colour
 * This page is also has an easy navigation to different pages.
 * This page also has a logo Mo Éire(which means my Ireland) which is the heart of this page.
 
-## [learnmore.html](https://github.com/Jincy09/Travel_to_Ireland/blob/main/learnmore.html)
-
-* This page has a beautiful video background of Cliff Of Moher which gives the users to enjoy the serinity of the cliff from aerial view.
-* This page gives a brief description of Ireland, about the population, geagraphical location and residents.
-* This page leads to the gallery which describes in details. 
-
 ## [contact.html](https://github.com/Jincy09/Travel_to_Ireland/blob/main/contact.html)
 * This is is a simple page with hero image of a landscape with the same heading and to keep the style consistent.
 * In this page, it has form which includes name, number and email address.
 
 ## [about.html](https://github.com/Jincy09/Travel_to_Ireland/blob/main/about.html)
-* This page gives the brief description about the purpose of creating this page with a beautiful background to make it more attractive.
+* This page has a beautiful video background of Cliff Of Moher which gives the users to enjoy the serinity of the cliff from aerial view.
+* This page gives a brief description of Ireland, about the population, geagraphical location and residents.
+* This page leads to the gallery which describes in details. 
+
 
 # TESTING  
 
