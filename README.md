@@ -9,11 +9,11 @@
   
 * I have decided to create a website for a fictional tour here in Ireland.  
 However, while the tour is fictional the places featured are real and
-this was an idea that I had brought forward for the promotion of tourism in Ireland. 
+this was an idea which will help for the promotion of tourism in Ireland. 
 While the Covid-19 Pandemic has devastated people across the globe; it is hoped that
 we will be able to travel all around the world. Meanwhile, I have created this website
 to give little idea about the places, so that ones everything comes to normal an option 
-for travel would be this country.  
+to traveling Ireland would not be avoided.  
   
 * For the purpose of my Milestone 1 project we're going to see attractive places, music ,culture and tour.
   
@@ -54,7 +54,7 @@ for travel would be this country.
 - [Credits](#credits)
   * [Media](#media)
   * [Research for choice of Colour palette:](#research-for-choice-of-colour-palette-)
-  * [Tourism websites from which I took inspiration when planning my project:](#tourism-websites-from-which-i-took-inspiration-when-planning-my-project-)
+  * [Websites from which I took inspiration when planning my project:](#tourism-websites-from-which-i-took-inspiration-when-planning-my-project-)
 - [Acknowledgements](#acknowledgements)
 
 
@@ -159,7 +159,7 @@ gallery  background colours for nav in navy blue: rgb(5, 37, 78);, button colour
 
 # TESTING  
 
-The entire testing process, issues and bugs found during development, solutions are [here]().
+The entire testing process, issues and bugs found during development, solutions are [here](https://github.com/Jincy09/Travel_to_Ireland/blob/main/TESTING.md).
 
 - Bugs and Issues
 - Validatiors
@@ -294,7 +294,9 @@ Images used in About.html:
 Image used on contact.html:  
 -  [contact](https://shoptr.shopsadgr.com/category?name=manzaral%C4%B1%20duvar%20tablolar%C4%B1)  Taken from boxinghq
   
+[Back to Content](#content)  
 
+--- 
 
 ## Research for choice of Colour palette:      
 -  [Adobe](https://color.adobe.com/create/color-wheel)  

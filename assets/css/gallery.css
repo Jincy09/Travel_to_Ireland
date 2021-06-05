@@ -135,223 +135,223 @@ a.active,a:hover{
         float:left;}
 
     .container{
-    position: relative;
-    width:100%;
-    margin: 10px;
-    float:right;} 
+        position: relative;
+        width:100%;
+        margin: 10px;
+        float:right;} 
     
     .container .card{
-    position: relative;
-    height:400px;
-    width:100%;
-    margin:30px,10px;
-    padding:10px,5px;
-    flex-direction: column;
-    box-shadow: 0 5px 202px rgb(0,0,0,0.5);
-    transition: 0.3s ease-in-out;
+        position: relative;
+        height:400px;
+        width:100%;
+        margin:30px,10px;
+        padding:10px,5px;
+        flex-direction: column;
+        box-shadow: 0 5px 202px rgb(0,0,0,0.5);
+        transition: 0.3s ease-in-out;
      
 }
     .container.card:hover{
-     height: 400px;
+        height: 400px;
 }
 
-.container.card.imgBx{
-    z-index: 1;
-    box-shadow: 0 5px 20 rgb(0,0,0,0.2);
-    padding:10px;
-    margin:5px;
+    .container.card.imgBx{
+        z-index: 1;
+        box-shadow: 0 5px 20 rgb(0,0,0,0.2);
+        padding:10px;
+        margin:5px;
    
 }
 
-.container .card .content{
-    position: relative;
-    text-align: center;
-    color: #111;
-    visibility: hidden;
-    opacity: 0;
-    transition: 0.3s ease-in-out;
+     .container .card .content{
+        position: relative;
+        text-align: center;
+        color: #111;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.3s ease-in-out;
 
 
 }
 
-.container .card:hover .content{
-    visibility: visible;
-    opacity: 1;
-    margin-top: 2px;
-    transition-delay: 0.1s;
+      .container .card:hover .content{
+        visibility: visible;
+        opacity: 1;
+        margin-top: 2px;
+        transition-delay: 0.1s;
 }
 
-.container .card .imgBx img{
-    max-width: 100%;
-    border-radius: 5px;
+      .container .card .imgBx img{
+         max-width: 100%;
+         border-radius: 5px;
 
 }
-.container p{
-    font-size: 15px;
+       .container p{
+          font-size: 15px;
 }
-.container h2{
-    font-size: 20px;
-    text-transform: uppercase;
+       .container h2{
+          font-size: 20px;
+          text-transform: uppercase;
 }
 
 }
 
 @media(max-width: 768px){
-    div.logo{
-            font-size:25px;
-            margin:0;
-            padding: 6px;
+       div.logo{
+          font-size:25px;
+          margin:0;
+          padding: 6px;
         }
-    nav ul li a{
-            font-size:20px;
-            margin:0;
-            padding:0;
+       nav ul li a{
+          font-size:20px;
+          margin:0;
+          padding:0;
         }
-    .container{
-           position: relative;
-           width:95%;
-           padding: 10px;
-           margin: 5px;
-           float:right;}
-    .container.card:hover{
-     height: 400px;
+       .container{
+          position: relative;
+          width:95%;
+          padding: 10px;
+          margin: 5px;
+          float:right;}
+      .container.card:hover{
+          height: 400px;
 }
 
-.container.card.imgBx{
-    z-index: 1;
-    box-shadow: 0 5px 20 rgb(0,0,0,0.2);
-    padding:10px;
-    margin:5px;
+       .container.card.imgBx{
+           z-index: 1;
+           box-shadow: 0 5px 20 rgb(0,0,0,0.2);
+           padding:10px;
+           margin:5px;
    
 }
-.container .card .content{
-    position: relative;
-    text-align: center;
-    color: #111;
-    visibility: hidden;
-    opacity: 0;
-    transition: 0.3s ease-in-out;
+       .container .card .content{
+             position: relative;
+             text-align: center;
+             color: #111;
+             visibility: hidden;
+             opacity: 0;
+             transition: 0.3s ease-in-out;
 
 
 }
 
-.container .card:hover .content{
-    visibility: visible;
-    opacity: 1;
-    margin-top: 2px;
-    transition-delay: 0.1s;
+      .container .card:hover .content{
+              visibility: visible;
+              opacity: 1;
+              margin-top: 2px;
+              transition-delay: 0.1s;
 }
 
-.container .card .imgBx img{
-    max-width: 90%;
-    border-radius: 5px;
+      .container .card .imgBx img{
+              max-width: 90%;
+              border-radius: 5px;
 
 }
-.container p{
-    font-size: 15px;
+      .container p{
+              font-size: 15px;
 }
-.container h2{
-    font-size: 15px;
-    text-transform: uppercase;
+      .container h2{
+              font-size: 15px;
+              text-transform: uppercase;
 }
 
 
-.social-networks li{
-    display: inline;
-    padding:15px;}
+       .social-networks li{
+              display: inline;
+              padding:15px;}
    
 
 
 
-.container.card{
-    position: relative;
-    max-width: 400px;
-    height: 00px;
-    background: rgba(0,0,0,0.1);
-    margin:30px,10px;
-    padding:10px,5px;
-    flex-direction: column;
-    box-shadow: 0 5px 202px rgb(0,0,0,0.5);
-    transition: 0.3s ease-in-out;
+       .container.card{
+               position: relative;
+               max-width: 400px;
+               height: 00px;
+               background: rgba(0,0,0,0.1);
+               margin:30px,10px;
+               padding:10px,5px;
+               flex-direction: column;
+               box-shadow: 0 5px 202px rgb(0,0,0,0.5);
+               transition: 0.3s ease-in-out;
      
 }
    
 }
 @media(max-width: 360px){
 
-        label.logo{
-            font-size:15px;
-            margin:0;
-            padding: 9px;
+       label.logo{
+               font-size:15px;
+               margin:0;
+               padding: 9px;
         }
        nav ul li a{
-            font-size:10px;
-            margin:0px;
-            padding:px;
-            display:contents; }
+               font-size:10px;
+               margin:0px;
+               padding:px;
+               display:contents; }
 
-.container.card{
-    position: relative;
-    max-width: 300px;
-    height: 100px;
-    background: rgba(0,0,0,0.1);
-    margin: 5px 3px;
-    padding: 20px 15px;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 5px 202px rgb(0,0,0,0.5);
-    transition: 0.3s ease-in-out;
+      .container.card{
+               position: relative;
+               max-width: 300px;
+               height: 100px;
+               background: rgba(0,0,0,0.1);
+               margin: 5px 3px;
+               padding: 20px 15px;
+               display: flex;
+               flex-direction: column;
+               box-shadow: 0 5px 202px rgb(0,0,0,0.5);
+               transition: 0.3s ease-in-out;
      
 }
-.container .card:hover{
-     height: 420px;
+      .container .card:hover{
+               height: 420px;
 }
 
-.container .card .imgBx{
-    position: relative;
-    width: 260px;
-    height: 260px;
-    top: -60px;
-    left: 2px;
-    z-index: 1;
-    box-shadow: 0 5px 20 rgb(0,0,0,0.2);
+      .container .card .imgBx{
+               position: relative;
+               width: 260px;
+               height: 260px;
+               top: -60px;
+               left: 2px;
+               z-index: 1;
+               box-shadow: 0 5px 20 rgb(0,0,0,0.2);
 }
-.container .card .content{
-    position: relative;
-    margin-top: -140px;
-    padding: 10px 15px;
-    text-align: center;
-    color: #111;
-    visibility: hidden;
-    opacity: 0;
-    transition: 0.3s ease-in-out;
+       .container .card .content{
+               position: relative;
+               margin-top: -140px;
+               padding: 10px 15px;
+               text-align: center;
+               color: #111;
+               visibility: hidden;
+               opacity: 0;
+               transition: 0.3s ease-in-out;
 
 
-}
-
-.container .card:hover .content{
-    visibility: visible;
-    opacity: 1;
-    margin-top: 0;
-    transition-delay: 0.1s;
 }
 
-.container .card .imgBx img{
-    max-width: 100%;
-    border-radius: 10px;
-
-}
-.container p{
-    font-size: 12px;
-}
-.container h2{
-    font-size: 20px;
-    text-transform: uppercase;
+       .container .card:hover .content{
+                visibility: visible;
+                opacity: 1;
+                margin-top: 0;
+                transition-delay: 0.1s;
 }
 
+       .container .card .imgBx img{
+                max-width: 100%;
+                border-radius: 10px;
 
-    .social-networks li{
-    display: inline;
-    padding:15px;}
+}
+        .container p{
+                font-size: 12px;
+}
+       .container h2{
+                font-size: 20px;
+                text-transform: uppercase;
+}
+
+
+       .social-networks li{
+                display: inline;
+                padding:15px;}
     }
    

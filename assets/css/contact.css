@@ -177,14 +177,14 @@ span:hover{
 
 @media (max-width: 740px){
 
-       div.logo{
-            font-size:inherit;
-            margin:0;
-            padding:0;
-            float:left
+    div.logo{
+        font-size:inherit;
+        margin:0;
+        padding:0;
+        float:left
         }
-        nav ul li a{
-            font-size:12px;
-            margin:0;
-            padding:0;
+    nav ul li a{
+        font-size:12px;
+        margin:0;
+        padding:0;
         }}
